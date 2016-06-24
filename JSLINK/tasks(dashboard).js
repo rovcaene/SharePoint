@@ -9,16 +9,16 @@ U2U.RegisterTemplateOverrides = function () {
     // Fields template registration
     var overrideCtx = {
         Templates: {
-            Fields: {
+        	Fields: {
 				'DueDate':
-                    {
-                        'View': U2U.RenderDueDate
-                    },
+                {
+                    'View': U2U.RenderDueDate
+                },
                 'PercentComplete':
-                    {
-                        'View': U2U.RenderPercentCompleteView
-                    }
-            },
+                {
+                    'View': U2U.RenderPercentCompleteView
+                }
+        	},
 			ListTemplateType: 171
         }
     };
